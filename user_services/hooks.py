@@ -1,5 +1,5 @@
-app_name = "user_signup"
-app_title = "User Signup"
+app_name = "user_services"
+app_title = "User Services"
 app_publisher = "Jitendra Mishra"
 app_description = "User signup services"
 app_email = "jitendra29mishra@gmail.com"
@@ -13,11 +13,11 @@ app_license = "mit"
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
 # 	{
-# 		"name": "user_signup",
-# 		"logo": "/assets/user_signup/logo.png",
+# 		"name": "user_services",
+# 		"logo": "/assets/user_services/logo.png",
 # 		"title": "User Signup",
-# 		"route": "/user_signup",
-# 		"has_permission": "user_signup.api.permission.has_app_permission"
+# 		"route": "/user_services",
+# 		"has_permission": "user_services.api.permission.has_app_permission"
 # 	}
 # ]
 
@@ -25,15 +25,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/user_signup/css/user_signup.css"
-# app_include_js = "/assets/user_signup/js/user_signup.js"
+# app_include_css = "/assets/user_services/css/user_services.css"
+# app_include_js = "/assets/user_services/js/user_services.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/user_signup/css/user_signup.css"
-# web_include_js = "/assets/user_signup/js/user_signup.js"
+# web_include_css = "/assets/user_services/css/user_services.css"
+# web_include_js = "/assets/user_services/js/user_services.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "user_signup/public/scss/website"
+# website_theme_scss = "user_services/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -51,7 +51,7 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "user_signup/public/icons.svg"
+# app_include_icons = "user_services/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -75,43 +75,43 @@ app_license = "mit"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "user_signup.utils.jinja_methods",
-# 	"filters": "user_signup.utils.jinja_filters"
+# 	"methods": "user_services.utils.jinja_methods",
+# 	"filters": "user_services.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "user_signup.install.before_install"
-# after_install = "user_signup.install.after_install"
+# before_install = "user_services.install.before_install"
+# after_install = "user_services.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "user_signup.uninstall.before_uninstall"
-# after_uninstall = "user_signup.uninstall.after_uninstall"
+# before_uninstall = "user_services.uninstall.before_uninstall"
+# after_uninstall = "user_services.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "user_signup.utils.before_app_install"
-# after_app_install = "user_signup.utils.after_app_install"
+# before_app_install = "user_services.utils.before_app_install"
+# after_app_install = "user_services.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "user_signup.utils.before_app_uninstall"
-# after_app_uninstall = "user_signup.utils.after_app_uninstall"
+# before_app_uninstall = "user_services.utils.before_app_uninstall"
+# after_app_uninstall = "user_services.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "user_signup.notifications.get_notification_config"
+# notification_config = "user_services.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -150,39 +150,39 @@ app_license = "mit"
 
 # scheduler_events = {
 # 	"all": [
-# 		"user_signup.tasks.all"
+# 		"user_services.tasks.all"
 # 	],
 # 	"daily": [
-# 		"user_signup.tasks.daily"
+# 		"user_services.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"user_signup.tasks.hourly"
+# 		"user_services.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"user_signup.tasks.weekly"
+# 		"user_services.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"user_signup.tasks.monthly"
+# 		"user_services.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "user_signup.install.before_tests"
+# before_tests = "user_services.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "user_signup.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "user_services.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "user_signup.task.get_dashboard_data"
+# 	"Task": "user_services.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -196,13 +196,13 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["user_signup.utils.before_request"]
-# after_request = ["user_signup.utils.after_request"]
+# before_request = ["user_services.utils.before_request"]
+# after_request = ["user_services.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["user_signup.utils.before_job"]
-# after_job = ["user_signup.utils.after_job"]
+# before_job = ["user_services.utils.before_job"]
+# after_job = ["user_services.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -232,7 +232,7 @@ app_license = "mit"
 # --------------------------------
 
 # auth_hooks = [
-# 	"user_signup.auth.validate"
+# 	"user_services.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
