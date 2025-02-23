@@ -1,9 +1,9 @@
 [project]
-name = "user_signup"
+name = "user services"
 authors = [
     { name = "Jitendra Mishra", email = "jitendra29mishra@gmail.com"}
 ]
-description = "User signup services"
+description = "User services"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
